@@ -5,6 +5,7 @@ import Button from '@/components/atoms/Button';
 import Icon from '@/components/atoms/Icon';
 import StatCounter from '@/components/molecules/StatCounter';
 import portfolioConfig from '@/content/portfolio-config.json';
+import { getImagePath } from '@/lib/utils';
 
 export const metadata: Metadata = {
   title: 'About - Huda Khan Portfolio',
@@ -122,7 +123,7 @@ export default function AboutPage() {
               <div className="aspect-square rounded-3xl overflow-hidden bg-gradient-to-br from-purple-500/20 to-pink-500/20 p-4">
                 <div className="w-full h-full rounded-2xl overflow-hidden">
                   <Image
-                    src="/huda-khan-profile.jpg"
+                    src={getImagePath("/huda-khan-profile.jpg")}
                     alt={personal.name}
                     width={500}
                     height={500}
