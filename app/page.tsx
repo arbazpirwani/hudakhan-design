@@ -7,6 +7,7 @@ import Button from "@/components/atoms/Button";
 import Icon from "@/components/atoms/Icon";
 import portfolioConfig from "@/content/portfolio-config.json";
 import projectsData from "@/content/projects.json";
+import { getImagePath } from "@/lib/utils";
 export default function Home() {
   const featuredProjects = projectsData.projects.filter(project => project.featured);
 
@@ -139,7 +140,7 @@ export default function Home() {
             </Button>
             <Button
               variant="secondary"
-              href={portfolioConfig.personal.resume}
+              href={getImagePath(portfolioConfig.personal.resume)}
               external
               icon={<Icon name="download" size={20} />}
             >
