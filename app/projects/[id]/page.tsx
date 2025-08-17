@@ -7,6 +7,7 @@ import Button from '@/components/atoms/Button';
 import Icon from '@/components/atoms/Icon';
 import projectsData from '@/content/projects.json';
 import { Project } from '@/types';
+import { getImagePath } from '@/lib/utils';
 
 interface ProjectPageProps {
   params: {
@@ -37,7 +38,7 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
       description: project.description,
       images: [
         {
-          url: project.images.hero,
+          url: getImagePath(project.images.hero),
           width: 800,
           height: 600,
           alt: project.title,
@@ -64,7 +65,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
       <section className="relative min-h-screen flex items-center">
         <div className="absolute inset-0">
           <Image
-            src={project.images.hero}
+            src={getImagePath(project.images.hero)}
             alt={project.title}
             fill
             className="object-cover"
@@ -174,7 +175,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
                   {project.images.gallery.map((image, index) => (
                     <div key={index} className="aspect-video rounded-lg overflow-hidden">
                       <Image
-                        src={image}
+                        src={getImagePath(image)}
                         alt={`${project.title} - Image ${index + 1}`}
                         width={600}
                         height={400}
