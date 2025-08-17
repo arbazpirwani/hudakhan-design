@@ -21,9 +21,10 @@ const NavLink: React.FC<NavLinkProps> = ({
   onClick
 }) => {
   const pathname = usePathname();
-  // Remove basePath from pathname for comparison (in production pathname includes /hudakhan-design)
-  const cleanPathname = pathname.replace('/hudakhan-design', '') || '/';
-  const isActive = cleanPathname === href;
+  // Remove basePath and trailing slash for comparison
+  const cleanPathname = pathname.replace('/hudakhan-design', '').replace(/\/$/, '') || '/';
+  const cleanHref = href.replace(/\/$/, '') || '/';
+  const isActive = cleanPathname === cleanHref;
 
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     // Remove focus after click to prevent focus ring staying
