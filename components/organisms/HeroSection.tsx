@@ -9,6 +9,7 @@ import Icon from '@/components/atoms/Icon';
 import StatCounter from '@/components/molecules/StatCounter';
 import AnimationController from '@/lib/animations';
 import { PersonalInfo } from '@/types';
+import { getAssetPath } from '@/lib/utils';
 
 interface HeroSectionProps {
   personal: PersonalInfo;
@@ -157,7 +158,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
             >
               <Button
                 variant="primary"
-                href="/projects"
+                href={getAssetPath("/projects")}
                 magnetic
                 icon={<Icon name="eye" size={20} />}
               >
@@ -165,7 +166,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
               </Button>
               <Button
                 variant="secondary"
-                href="/contact"
+                href={getAssetPath("/contact")}
                 icon={<Icon name="mail" size={20} />}
               >
                 Let's Connect
