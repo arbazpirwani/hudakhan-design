@@ -9,6 +9,7 @@ import Icon from '@/components/atoms/Icon';
 import StatCounter from '@/components/molecules/StatCounter';
 import AnimationController from '@/lib/animations';
 import { PersonalInfo } from '@/types';
+import { getImagePath } from '@/lib/utils';
 
 interface HeroSectionProps {
   personal: PersonalInfo;
@@ -213,7 +214,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
                 <div className="aspect-square rounded-3xl overflow-hidden bg-gradient-to-br from-purple-500/20 to-pink-500/20 p-2">
                   <div className="w-full h-full rounded-2xl overflow-hidden">
                     <Image
-                      src="/huda-khan-profile.jpg"
+                      src={getImagePath("/huda-khan-profile.jpg")}
                       alt={personal.name}
                       width={500}
                       height={500}
@@ -238,7 +239,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
               initial={{ opacity: 0, scale: 0 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 1.5, duration: 0.6, ease: "backOut" }}
-              className="absolute top-8 -left-4 bg-white text-gray-900 px-4 py-2 rounded-full shadow-xl"
+              className="absolute top-8 -left-4 bg-white text-gray-900 px-4 py-2 rounded-full shadow-xl z-10"
             >
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
@@ -251,7 +252,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 2, duration: 0.6 }}
-              className="absolute bottom-8 -right-4 card p-4 max-w-xs"
+              className="absolute bottom-8 -right-4 card p-4 max-w-xs z-10"
             >
               <Text variant="caption" color="accent" weight="medium" className="mb-1">
                 Currently at

@@ -8,6 +8,7 @@ import Text from '@/components/atoms/Text';
 import Icon from '@/components/atoms/Icon';
 import AnimationController from '@/lib/animations';
 import { Project } from '@/types';
+import { getImagePath } from '@/lib/utils';
 
 interface ProjectTileProps {
   project: Project;
@@ -95,7 +96,7 @@ const ProjectTile: React.FC<ProjectTileProps> = ({
         {/* Project Image */}
         <div className="relative w-full h-full">
           <Image
-            src={project.images.thumbnail}
+            src={getImagePath(project.images.thumbnail)}
             alt={project.title}
             fill
             className="object-cover group-hover:scale-110 transition-transform duration-500"
