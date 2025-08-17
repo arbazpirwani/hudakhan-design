@@ -296,7 +296,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
               </div>
               <div className="aspect-video rounded-lg overflow-hidden mb-4">
                 <Image
-                  src={prevProject.images.thumbnail}
+                  src={getImagePath(prevProject.images.thumbnail)}
                   alt={prevProject.title}
                   width={400}
                   height={200}
@@ -324,7 +324,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
               </div>
               <div className="aspect-video rounded-lg overflow-hidden mb-4">
                 <Image
-                  src={nextProject.images.thumbnail}
+                  src={getImagePath(nextProject.images.thumbnail)}
                   alt={nextProject.title}
                   width={400}
                   height={200}
