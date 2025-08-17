@@ -2,6 +2,7 @@
 
 import React, { useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import NextLink from 'next/link';
 import AnimationController from '@/lib/animations';
 
 interface ButtonProps {
@@ -112,17 +113,33 @@ const Button: React.FC<ButtonProps> = ({
       ? { target: "_blank", rel: "noopener noreferrer" }
       : {};
       
+    // Use Next.js Link for internal navigation, regular anchor for external
+    if (external) {
+      return (
+        <motion.a
+          ref={buttonRef as React.RefObject<HTMLAnchorElement>}
+          href={href}
+          className={classes}
+          {...linkProps}
+          {...motionProps}
+          {...props}
+        >
+          {buttonContent}
+        </motion.a>
+      );
+    }
+    
     return (
-      <motion.a
-        ref={buttonRef as React.RefObject<HTMLAnchorElement>}
-        href={href}
-        className={classes}
-        {...linkProps}
-        {...motionProps}
-        {...props}
-      >
-        {buttonContent}
-      </motion.a>
+      <NextLink href={href} passHref legacyBehavior>
+        <motion.a
+          ref={buttonRef as React.RefObject<HTMLAnchorElement>}
+          className={classes}
+          {...motionProps}
+          {...props}
+        >
+          {buttonContent}
+        </motion.a>
+      </NextLink>
     );
   }
 
