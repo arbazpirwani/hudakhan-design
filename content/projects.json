@@ -1,0 +1,169 @@
+{
+  "projects": [
+    {
+      "id": "easy-khata",
+      "title": "Easy Khata",
+      "category": "Mobile App Design",
+      "client": "Bazaar Technologies",
+      "year": "2022-2023",
+      "featured": true,
+      "metrics": {
+        "downloads": "3M+",
+        "users": "100,000+",
+        "rating": "4.2★"
+      },
+      "description": "Pakistan's #1 digital ledger app that significantly reduced acquisition costs",
+      "challenge": "Create an intuitive bookkeeping app with regional linguistic appeal for non-tech-savvy merchants",
+      "solution": "Conducted in-depth linguistic research and designed multi-language UI with familiar interaction patterns",
+      "impact": "3M+ downloads with 38% increase in user engagement within first quarter",
+      "images": {
+        "hero": "/projects/easy-khata/easy-khata-app.jpg",
+        "gallery": [
+          "/projects/easy-khata/easy-khata-logo.jpg",
+          "/projects/easy-khata/easy-khata-app.jpg",
+          "/projects/easy-khata/easy-khata-youtube.jpg"
+        ],
+        "thumbnail": "/projects/easy-khata/easy-khata-logo.jpg"
+      },
+      "technologies": ["Figma", "Adobe XD", "Principle", "Zeplin"],
+      "testimonial": {
+        "quote": "Huda's design made complex bookkeeping feel as simple as WhatsApp",
+        "author": "Hamza Jawaid",
+        "position": "Co-founder, Bazaar Technologies"
+      }
+    },
+    {
+      "id": "detergent-campaign",
+      "title": "Surf Excel Pakistan",
+      "category": "Packaging Design",
+      "client": "Unilever Pakistan",
+      "year": "2023",
+      "featured": true,
+      "metrics": {
+        "revenue": "300M PKR",
+        "marketshare": "37%",
+        "markets": "National"
+      },
+      "description": "Packaging design consultation for Pakistan's leading detergent brand",
+      "challenge": "Modernize Surf Excel packaging while maintaining brand heritage and local appeal",
+      "solution": "Created contemporary packaging designs that honor the brand's 'Daag achay hotay hain' legacy",
+      "impact": "Enhanced shelf presence and contributed to maintaining 37% market share",
+      "images": {
+        "hero": "/projects/detergent/surf-excel-pack.jpg",
+        "gallery": [
+          "/projects/detergent/surf-excel-pack.jpg",
+          "/projects/detergent/detergent-display.jpg",
+          "/projects/detergent/pack-3.jpg"
+        ],
+        "thumbnail": "/projects/detergent/surf-excel-pack.jpg"
+      },
+      "technologies": ["Adobe Illustrator", "Photoshop", "Cinema 4D"],
+      "testimonial": {
+        "quote": "Huda's design approach perfectly balanced modernity with our brand heritage",
+        "author": "Marketing Director",
+        "position": "Unilever Pakistan"
+      }
+    },
+    {
+      "id": "bazaar-marketplace",
+      "title": "Bazaar B2B Platform",
+      "category": "Product Design",
+      "client": "Bazaar Technologies",
+      "year": "2021-2024",
+      "featured": true,
+      "metrics": {
+        "cities": "10+",
+        "categories": "30+",
+        "merchants": "17,000+"
+      },
+      "description": "Pakistan's leading B2B e-commerce marketplace design",
+      "challenge": "Design scalable B2B platform for diverse merchant needs",
+      "solution": "Created modular design system with merchant-focused UX",
+      "impact": "Serves 17,000+ merchants across 10+ cities",
+      "images": {
+        "hero": "/projects/bazaar/whatsapp-splash.jpg",
+        "gallery": [
+          "/projects/bazaar/whatsapp-splash.jpg",
+          "/projects/bazaar/bazaar-keenu.jpg",
+          "/projects/bazaar/bazaar-acquisition.jpg"
+        ],
+        "thumbnail": "/projects/bazaar/whatsapp-splash.jpg"
+      },
+      "technologies": ["Figma", "Miro", "Adobe Creative Suite", "Principle"],
+      "testimonial": {
+        "quote": "Huda's design thinking transformed our complex B2B platform into an intuitive experience",
+        "author": "Saad Jangda",
+        "position": "CEO, Bazaar Technologies"
+      }
+    },
+    {
+      "id": "bazaar-industrial",
+      "title": "Bazaar Industrial",
+      "category": "Brand Design",
+      "client": "Bazaar Technologies",
+      "year": "2023-2024",
+      "featured": false,
+      "description": "B2B raw materials platform serving 15+ industries",
+      "challenge": "Create distinct brand identity for industrial segment",
+      "solution": "Developed industrial-focused design language and brand system",
+      "impact": "Successfully launched serving 15+ industries",
+      "images": {
+        "hero": "/projects/industrial/hero.jpg",
+        "gallery": [
+          "/projects/industrial/brand-1.jpg",
+          "/projects/industrial/brand-2.jpg"
+        ],
+        "thumbnail": "/projects/industrial/thumb.jpg"
+      },
+      "technologies": ["Adobe Illustrator", "Photoshop", "Figma"],
+      "testimonial": {
+        "quote": "The industrial brand identity perfectly captured our target market",
+        "author": "Product Team",
+        "position": "Bazaar Technologies"
+      }
+    },
+    {
+      "id": "social-campaigns",
+      "title": "Digital Marketing Campaigns",
+      "category": "Social Media Design",
+      "client": "Various Clients",
+      "year": "2021-2024",
+      "featured": false,
+      "description": "High-impact social media campaigns across platforms",
+      "challenge": "Create engaging content that drives conversions",
+      "solution": "Developed platform-specific design approaches with strong CTAs",
+      "impact": "Generated millions in engagement and conversions",
+      "images": {
+        "hero": "/projects/campaigns/hero.jpg",
+        "gallery": [
+          "/projects/campaigns/social-1.jpg",
+          "/projects/campaigns/social-2.jpg",
+          "/projects/campaigns/social-1.jpg"
+        ],
+        "thumbnail": "/projects/campaigns/thumb.jpg"
+      },
+      "technologies": ["Adobe Creative Suite", "Canva Pro", "Figma"]
+    },
+    {
+      "id": "corporate-identity",
+      "title": "Corporate Identity Systems",
+      "category": "Brand Design",
+      "client": "Multiple Enterprises",
+      "year": "2022-2024",
+      "featured": false,
+      "description": "Complete corporate identity packages for growing businesses",
+      "challenge": "Create professional brand identities that scale",
+      "solution": "Developed comprehensive brand guidelines and asset libraries",
+      "impact": "Established strong brand presence for 20+ companies",
+      "images": {
+        "hero": "/projects/corporate/hero.jpg",
+        "gallery": [
+          "/projects/corporate/identity-1.jpg",
+          "/projects/corporate/identity-2.jpg"
+        ],
+        "thumbnail": "/projects/corporate/thumb.jpg"
+      },
+      "technologies": ["Adobe Illustrator", "InDesign", "Photoshop"]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "personal": {
+    "name": "Huda Khan",
+    "title": "Senior Communication Designer",
+    "tagline": "Spearheading end-to-end brand design processes across all company verticals",
+    "email": "hudapervez@hotmail.com",
+    "phone": "+92-3333167640",
+    "location": "Karachi, Pakistan",
+    "bio": "Senior Communication Designer with 4+ years of experience leading design initiatives across Pakistan's leading e-commerce platform. Spearheaded end-to-end brand design processes for flagship products contributing to 300M PKR revenue milestone. Led a team of 4 designers while orchestrating design campaigns for Easy Khata app that achieved 3M+ downloads.",
+    "resume": "/resume/huda-khan-resume.pdf"
+  },
+  
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/hudapervez/",
+    "behance": "https://www.behance.net/hudapervez",
+    "email": "mailto:hudapervez@hotmail.com",
+    "whatsapp": "https://wa.me/923333167640"
+  },
+  
+  "navigation": [
+    { "label": "Home", "href": "/" },
+    { "label": "About", "href": "/about" },
+    { "label": "Projects", "href": "/projects" },
+    { "label": "Services", "href": "/services" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+  
+  "services": [
+    {
+      "id": "brand-design",
+      "title": "Brand Identity",
+      "description": "Complete brand systems from logo to guidelines",
+      "icon": "palette",
+      "features": ["Logo Design", "Brand Guidelines", "Visual Identity", "Brand Strategy"]
+    },
+    {
+      "id": "ui-ux",
+      "title": "UI/UX Design",
+      "description": "User-centered digital product design",
+      "icon": "layout",
+      "features": ["User Research", "Wireframing", "Prototyping", "Usability Testing"]
+    },
+    {
+      "id": "packaging",
+      "title": "Packaging Design",
+      "description": "FMCG and product packaging solutions",
+      "icon": "package",
+      "features": ["Product Packaging", "Label Design", "3D Mockups", "Print Production"]
+    },
+    {
+      "id": "motion",
+      "title": "Motion Graphics",
+      "description": "Animations and interactive experiences",
+      "icon": "video",
+      "features": ["Animation", "Video Editing", "Micro-interactions", "Promotional Videos"]
+    }
+  ]
+}
