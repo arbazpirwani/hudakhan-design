@@ -7,11 +7,8 @@ import Button from "@/components/atoms/Button";
 import Icon from "@/components/atoms/Icon";
 import portfolioConfig from "@/content/portfolio-config.json";
 import projectsData from "@/content/projects.json";
-import { processProjectData, getAssetPath } from "@/lib/utils";
-
 export default function Home() {
-  const processedProjects = processProjectData(projectsData.projects);
-  const featuredProjects = processedProjects.filter(project => project.featured);
+  const featuredProjects = projectsData.projects.filter(project => project.featured);
 
   return (
     <>
@@ -19,7 +16,7 @@ export default function Home() {
       <HeroSection personal={portfolioConfig.personal} />
 
       {/* Parallax Gallery */}
-      <ParallaxGallery projects={processedProjects} />
+      <ParallaxGallery projects={projectsData.projects} />
 
       {/* Services Section */}
       <section className="section-padding bg-gray-900/50">
@@ -134,7 +131,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
               variant="primary"
-              href={getAssetPath("/contact")}
+              href="/contact"
               magnetic
               icon={<Icon name="mail" size={20} />}
             >
@@ -142,7 +139,7 @@ export default function Home() {
             </Button>
             <Button
               variant="secondary"
-              href={getAssetPath(portfolioConfig.personal.resume)}
+              href={portfolioConfig.personal.resume}
               external
               icon={<Icon name="download" size={20} />}
             >
