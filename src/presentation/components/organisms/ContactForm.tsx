@@ -4,19 +4,19 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
-import Text from '@/presentation/components/atoms/Text';
-import Button from '@/presentation/components/atoms/Button';
-import Input from '@/presentation/components/atoms/Input';
-import Textarea from '@/presentation/components/atoms/Textarea';
-import Select from '@/presentation/components/atoms/Select';
-import Icon from '@/presentation/components/atoms/Icon';
+import Text from '@/src/presentation/components/atoms/Text';
+import Button from '@/src/presentation/components/atoms/Button';
+import Input from '@/src/presentation/components/atoms/Input';
+import Textarea from '@/src/presentation/components/atoms/Textarea';
+import Select from '@/src/presentation/components/atoms/Select';
+import Icon from '@/src/presentation/components/atoms/Icon';
 import { 
   contactFormSchema, 
   ContactFormData, 
   projectTypes, 
   budgetRanges, 
   timelines 
-} from '@/presentation/utils/validation';
+} from '@/src/presentation/utils/validation';
 
 interface ContactFormProps {
   className?: string;

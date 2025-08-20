@@ -1,10 +1,10 @@
 import { Metadata } from 'next';
-import Text from '@/components/atoms/Text';
-import Button from '@/components/atoms/Button';
-import Icon from '@/components/atoms/Icon';
-import ContactForm from '@/components/organisms/ContactForm';
-import SocialLink from '@/components/molecules/SocialLink';
-import portfolioConfig from '@/content/portfolio-config.json';
+import Text from '@/src/presentation/components/atoms/Text';
+import Button from '@/src/presentation/components/atoms/Button';
+import Icon from '@/src/presentation/components/atoms/Icon';
+import ContactForm from '@/src/presentation/components/organisms/ContactForm';
+import SocialLink from '@/src/presentation/components/molecules/SocialLink';
+import portfolioConfig from '@/src/data/content/portfolio-config.json';
 
 export const metadata: Metadata = {
   title: 'Contact - Huda Khan Portfolio',

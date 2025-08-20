@@ -2,10 +2,10 @@
 
 import React, { useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import Icon, { IconName } from '@/presentation/components/atoms/Icon';
-import Text from '@/presentation/components/atoms/Text';
-import AnimationController from '@/presentation/utils/animations';
-import { Service } from '@/domain/entities/index';
+import Icon, { IconName } from '@/src/presentation/components/atoms/Icon';
+import Text from '@/src/presentation/components/atoms/Text';
+import AnimationController from '@/src/presentation/utils/animations';
+import { Service } from '@/src/domain/entities/index';
 
 interface ServiceCardProps {
   service: Service;

@@ -3,9 +3,9 @@
 import React, { useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import NextLink from 'next/link';
-import AnimationController from '@/presentation/utils/animations';
+import AnimationController from '@/src/presentation/utils/animations';
 import { useTheme } from '@/src/presentation/hooks/useTheme';
-import { useStrings } from '@/presentation/hooks/useStrings';
+import { useStrings } from '@/src/presentation/hooks/useStrings';
 
 interface ButtonProps {
   children: React.ReactNode;

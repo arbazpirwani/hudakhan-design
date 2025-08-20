@@ -1,6 +1,6 @@
-import { PersonalInfo, SocialLinks, NavigationItem } from '@/domain/entities/PersonalInfo';
-import { Service } from '@/domain/entities/Service';
-import { ContentRepository } from '@/domain/repositories/ContentRepository';
+import { PersonalInfo, SocialLinks, NavigationItem } from '@/src/domain/entities/PersonalInfo';
+import { Service } from '@/src/domain/entities/Service';
+import { ContentRepository } from '@/src/domain/repositories/ContentRepository';
 import portfolioConfig from '../content/portfolio-config.json';
 import siteContent from '../content/site-content.json';
 

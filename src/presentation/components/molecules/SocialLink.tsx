@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import Icon, { IconName } from '@/presentation/components/atoms/Icon';
+import Icon, { IconName } from '@/src/presentation/components/atoms/Icon';
 
 interface SocialLinkProps {
   href: string;

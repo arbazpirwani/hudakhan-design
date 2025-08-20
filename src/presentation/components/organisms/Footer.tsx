@@ -2,12 +2,12 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import Logo from '@/presentation/components/atoms/Logo';
-import Text from '@/presentation/components/atoms/Text';
-import Link from '@/presentation/components/atoms/Link';
-import SocialLink from '@/presentation/components/molecules/SocialLink';
-import { useStrings } from '@/presentation/hooks/useStrings';
-import { PersonalInfo, SocialLinks, NavItem } from '@/domain/entities/index';
+import Logo from '@/src/presentation/components/atoms/Logo';
+import Text from '@/src/presentation/components/atoms/Text';
+import Link from '@/src/presentation/components/atoms/Link';
+import SocialLink from '@/src/presentation/components/molecules/SocialLink';
+import { useStrings } from '@/src/presentation/hooks/useStrings';
+import { PersonalInfo, SocialLinks, NavItem } from '@/src/domain/entities/index';
 
 interface FooterProps {
   personal: PersonalInfo;

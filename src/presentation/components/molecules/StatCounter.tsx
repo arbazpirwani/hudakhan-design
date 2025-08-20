@@ -2,8 +2,8 @@
 
 import React, { useRef, useEffect, useState } from 'react';
 import { motion, useInView } from 'framer-motion';
-import Text from '@/presentation/components/atoms/Text';
-import Icon, { IconName } from '@/presentation/components/atoms/Icon';
+import Text from '@/src/presentation/components/atoms/Text';
+import Icon, { IconName } from '@/src/presentation/components/atoms/Icon';
 
 interface StatCounterProps {
   value: string;

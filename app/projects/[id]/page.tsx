@@ -2,11 +2,11 @@ import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-import Text from '@/components/atoms/Text';
-import Button from '@/components/atoms/Button';
-import Icon from '@/components/atoms/Icon';
-import projectsData from '@/content/projects.json';
-import { getImagePath } from '@/lib/utils';
+import Text from '@/src/presentation/components/atoms/Text';
+import Button from '@/src/presentation/components/atoms/Button';
+import Icon from '@/src/presentation/components/atoms/Icon';
+import projectsData from '@/src/data/content/projects.json';
+import { getImagePath } from '@/src/presentation/utils/utils';
 
 interface ProjectPageProps {
   params: {

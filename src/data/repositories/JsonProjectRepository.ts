@@ -1,5 +1,5 @@
-import { Project } from '@/domain/entities/Project';
-import { ProjectRepository } from '@/domain/repositories/ProjectRepository';
+import { Project } from '@/src/domain/entities/Project';
+import { ProjectRepository } from '@/src/domain/repositories/ProjectRepository';
 import projectsData from '../content/projects.json';
 
 export class JsonProjectRepository implements ProjectRepository {

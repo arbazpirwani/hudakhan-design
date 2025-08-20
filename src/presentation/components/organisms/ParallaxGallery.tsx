@@ -2,10 +2,10 @@
 
 import React, { useRef, useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import ProjectTile from '@/presentation/components/molecules/ProjectTile';
-import Text from '@/presentation/components/atoms/Text';
-import AnimationController from '@/presentation/utils/animations';
-import { Project } from '@/domain/entities/index';
+import ProjectTile from '@/src/presentation/components/molecules/ProjectTile';
+import Text from '@/src/presentation/components/atoms/Text';
+import AnimationController from '@/src/presentation/utils/animations';
+import { Project } from '@/src/domain/entities/index';
 
 interface ParallaxGalleryProps {
   projects: Project[];

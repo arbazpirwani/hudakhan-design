@@ -3,13 +3,13 @@
 import React, { useRef, useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import Image from 'next/image';
-import Text from '@/presentation/components/atoms/Text';
-import Button from '@/presentation/components/atoms/Button';
-import Icon from '@/presentation/components/atoms/Icon';
-import StatCounter from '@/presentation/components/molecules/StatCounter';
-import AnimationController from '@/presentation/utils/animations';
-import { PersonalInfo } from '@/domain/entities/index';
-import { getImagePath } from '@/presentation/utils/utils';
+import Text from '@/src/presentation/components/atoms/Text';
+import Button from '@/src/presentation/components/atoms/Button';
+import Icon from '@/src/presentation/components/atoms/Icon';
+import StatCounter from '@/src/presentation/components/molecules/StatCounter';
+import AnimationController from '@/src/presentation/utils/animations';
+import { PersonalInfo } from '@/src/domain/entities/index';
+import { getImagePath } from '@/src/presentation/utils/utils';
 
 interface HeroSectionProps {
   personal: PersonalInfo;

@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
-import Text from '@/components/atoms/Text';
-import Button from '@/components/atoms/Button';
-import Icon from '@/components/atoms/Icon';
+import Text from '@/src/presentation/components/atoms/Text';
+import Button from '@/src/presentation/components/atoms/Button';
+import Icon from '@/src/presentation/components/atoms/Icon';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy - Huda Khan Portfolio',

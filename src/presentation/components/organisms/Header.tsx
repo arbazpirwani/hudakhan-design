@@ -2,14 +2,14 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import Logo from '@/presentation/components/atoms/Logo';
-import Button from '@/presentation/components/atoms/Button';
-import Icon from '@/presentation/components/atoms/Icon';
-import NavLink from '@/presentation/components/molecules/NavLink';
-// import ThemeSwitcher from '@/presentation/components/atoms/ThemeSwitcher';
-import { NavItem } from '@/domain/entities/index';
-import { useStrings } from '@/presentation/hooks/useStrings';
-import { useAssets } from '@/presentation/hooks/useAssets';
+import Logo from '@/src/presentation/components/atoms/Logo';
+import Button from '@/src/presentation/components/atoms/Button';
+import Icon from '@/src/presentation/components/atoms/Icon';
+import NavLink from '@/src/presentation/components/molecules/NavLink';
+// import ThemeSwitcher from '@/src/presentation/components/atoms/ThemeSwitcher';
+import { NavItem } from '@/src/domain/entities/index';
+import { useStrings } from '@/src/presentation/hooks/useStrings';
+import { useAssets } from '@/src/presentation/hooks/useAssets';
 import { useTheme } from '@/src/presentation/hooks/useTheme';
 
 interface HeaderProps {

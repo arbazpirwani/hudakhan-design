@@ -4,11 +4,11 @@ import React, { useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
-import Text from '@/presentation/components/atoms/Text';
-import Icon from '@/presentation/components/atoms/Icon';
-import AnimationController from '@/presentation/utils/animations';
-import { Project } from '@/domain/entities/index';
-import { getImagePath } from '@/presentation/utils/utils';
+import Text from '@/src/presentation/components/atoms/Text';
+import Icon from '@/src/presentation/components/atoms/Icon';
+import AnimationController from '@/src/presentation/utils/animations';
+import { Project } from '@/src/domain/entities/index';
+import { getImagePath } from '@/src/presentation/utils/utils';
 
 interface ProjectTileProps {
   project: Project;

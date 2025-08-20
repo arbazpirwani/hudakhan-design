@@ -1,11 +1,11 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
-import Text from '@/components/atoms/Text';
-import Button from '@/components/atoms/Button';
-import Icon from '@/components/atoms/Icon';
-import StatCounter from '@/components/molecules/StatCounter';
-import portfolioConfig from '@/content/portfolio-config.json';
-import { getImagePath } from '@/lib/utils';
+import Text from '@/src/presentation/components/atoms/Text';
+import Button from '@/src/presentation/components/atoms/Button';
+import Icon from '@/src/presentation/components/atoms/Icon';
+import StatCounter from '@/src/presentation/components/molecules/StatCounter';
+import portfolioConfig from '@/src/data/content/portfolio-config.json';
+import { getImagePath } from '@/src/presentation/utils/utils';
 
 export const metadata: Metadata = {
   title: 'About - Huda Khan Portfolio',

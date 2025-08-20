@@ -3,7 +3,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useTheme } from '@/src/presentation/hooks/useTheme';
-import { useStrings } from '@/presentation/hooks/useStrings';
+import { useStrings } from '@/src/presentation/hooks/useStrings';
 import Icon from './Icon';
 
 interface ThemeSwitcherProps {

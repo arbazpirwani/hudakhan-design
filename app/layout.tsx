@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Header from "@/components/organisms/Header";
-import Footer from "@/components/organisms/Footer";
+import Header from "@/src/presentation/components/organisms/Header";
+import Footer from "@/src/presentation/components/organisms/Footer";
 import { ThemeProvider } from "@/src/presentation/contexts/ThemeContext";
-import portfolioConfig from "@/content/portfolio-config.json";
+import portfolioConfig from "@/src/data/content/portfolio-config.json";
 
 export const metadata: Metadata = {
   title: `${portfolioConfig.personal.name} - ${portfolioConfig.personal.title}`,

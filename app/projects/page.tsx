@@ -1,9 +1,9 @@
 import { Metadata } from 'next';
-import Text from '@/components/atoms/Text';
-import ProjectTile from '@/components/molecules/ProjectTile';
-import Button from '@/components/atoms/Button';
-import Icon from '@/components/atoms/Icon';
-import projectsData from '@/content/projects.json';
+import Text from '@/src/presentation/components/atoms/Text';
+import ProjectTile from '@/src/presentation/components/molecules/ProjectTile';
+import Button from '@/src/presentation/components/atoms/Button';
+import Icon from '@/src/presentation/components/atoms/Icon';
+import projectsData from '@/src/data/content/projects.json';
 
 export const metadata: Metadata = {
   title: 'Projects - Huda Khan Portfolio',

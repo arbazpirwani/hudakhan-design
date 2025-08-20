@@ -1,13 +1,13 @@
-import HeroSection from "@/components/organisms/HeroSection";
-import ParallaxGallery from "@/components/organisms/ParallaxGallery";
-import ServiceCard from "@/components/molecules/ServiceCard";
-import ProjectTile from "@/components/molecules/ProjectTile";
-import Text from "@/components/atoms/Text";
-import Button from "@/components/atoms/Button";
-import Icon from "@/components/atoms/Icon";
-import portfolioConfig from "@/content/portfolio-config.json";
-import projectsData from "@/content/projects.json";
-import { getImagePath } from "@/lib/utils";
+import HeroSection from "@/src/presentation/components/organisms/HeroSection";
+import ParallaxGallery from "@/src/presentation/components/organisms/ParallaxGallery";
+import ServiceCard from "@/src/presentation/components/molecules/ServiceCard";
+import ProjectTile from "@/src/presentation/components/molecules/ProjectTile";
+import Text from "@/src/presentation/components/atoms/Text";
+import Button from "@/src/presentation/components/atoms/Button";
+import Icon from "@/src/presentation/components/atoms/Icon";
+import portfolioConfig from "@/src/data/content/portfolio-config.json";
+import projectsData from "@/src/data/content/projects.json";
+import { getImagePath } from "@/src/presentation/utils/utils";
 export default function Home() {
   const featuredProjects = projectsData.projects.filter(project => project.featured);
 

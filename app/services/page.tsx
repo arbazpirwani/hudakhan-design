@@ -1,9 +1,9 @@
 import { Metadata } from 'next';
-import Text from '@/components/atoms/Text';
-import Button from '@/components/atoms/Button';
-import Icon from '@/components/atoms/Icon';
-import ServiceCard from '@/components/molecules/ServiceCard';
-import portfolioConfig from '@/content/portfolio-config.json';
+import Text from '@/src/presentation/components/atoms/Text';
+import Button from '@/src/presentation/components/atoms/Button';
+import Icon from '@/src/presentation/components/atoms/Icon';
+import ServiceCard from '@/src/presentation/components/molecules/ServiceCard';
+import portfolioConfig from '@/src/data/content/portfolio-config.json';
 
 export const metadata: Metadata = {
   title: 'Services - Huda Khan Portfolio',
