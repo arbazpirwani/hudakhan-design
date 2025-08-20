@@ -6,6 +6,8 @@ export default function FontTestPage() {
   const [fontInfo, setFontInfo] = useState<any>({});
   
   useEffect(() => {
+    if (typeof window === 'undefined') return;
+    
     const computedStyles = getComputedStyle(document.body);
     const root = getComputedStyle(document.documentElement);
     

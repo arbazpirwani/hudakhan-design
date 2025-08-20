@@ -7,6 +7,8 @@ export default function TestColorsPage() {
   const [theme, setTheme] = useState<'light' | 'dark'>('dark');
   
   useEffect(() => {
+    if (typeof window === 'undefined') return;
+    
     // Get computed styles from root element
     const root = getComputedStyle(document.documentElement);
     const colorVars = {
@@ -47,9 +49,9 @@ export default function TestColorsPage() {
         
         <div className="p-4 rounded border-2">
           <h3 className="font-bold mb-2">Body Styles:</h3>
-          <p>Background: {document.body.style.backgroundColor || 'not set'}</p>
-          <p>Color: {document.body.style.color || 'not set'}</p>
-          <p>Font: {document.body.style.fontFamily || 'not set'}</p>
+          <p>Background: {typeof window !== 'undefined' ? (document.body.style.backgroundColor || 'not set') : 'SSR'}</p>
+          <p>Color: {typeof window !== 'undefined' ? (document.body.style.color || 'not set') : 'SSR'}</p>
+          <p>Font: {typeof window !== 'undefined' ? (document.body.style.fontFamily || 'not set') : 'SSR'}</p>
         </div>
       </div>
       
