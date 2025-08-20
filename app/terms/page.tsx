@@ -51,7 +51,7 @@ export default function TermsPage() {
                 <Text variant="body" color="secondary" className="mb-4">
                   All content, designs, and creative work displayed on this website are protected by copyright:
                 </Text>
-                <ul className="list-disc list-inside space-y-2 text-gray-300">
+                <ul className="list-disc list-inside space-y-2 text-dynamic-text-secondary">
                   <li>Portfolio work remains property of respective clients or Huda Khan</li>
                   <li>Website design and code are proprietary</li>
                   <li>Content may not be reproduced without permission</li>
@@ -90,7 +90,7 @@ export default function TermsPage() {
               </div>
             </div>
 
-            <div className="mt-12 pt-8 border-t border-gray-800">
+            <div className="mt-12 pt-8 border-t border-dynamic-border">
               <Button
                 variant="secondary"
                 href="/"

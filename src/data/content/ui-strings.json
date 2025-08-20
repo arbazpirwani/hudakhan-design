@@ -1,0 +1,153 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects", 
+    "services": "Services",
+    "contact": "Contact",
+    "resume": "Resume",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "buttons": {
+    "viewProject": "View Project",
+    "viewAllProjects": "View All Projects",
+    "startProject": "Start a Project",
+    "downloadResume": "Download Resume",
+    "sendMessage": "Send Message",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "backToHome": "Back to Home",
+    "tryAgain": "Try Again",
+    "loadMore": "Load More",
+    "readMore": "Read More",
+    "viewDetails": "View Details"
+  },
+  "forms": {
+    "labels": {
+      "name": "Your Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Message",
+      "phone": "Phone Number",
+      "company": "Company",
+      "budget": "Project Budget"
+    },
+    "placeholders": {
+      "name": "Enter your full name",
+      "email": "your@email.com",
+      "subject": "Project Inquiry",
+      "message": "Tell me about your project...",
+      "phone": "+1 (555) 123-4567",
+      "company": "Your Company Name",
+      "budget": "Select budget range"
+    },
+    "validation": {
+      "required": "This field is required",
+      "invalidEmail": "Please enter a valid email address",
+      "minLength": "Minimum {min} characters required",
+      "maxLength": "Maximum {max} characters allowed"
+    },
+    "messages": {
+      "success": "Thank you for your message! I'll get back to you soon.",
+      "error": "Something went wrong. Please try again.",
+      "sending": "Sending your message..."
+    }
+  },
+  "status": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "notFound": "Page not found",
+    "comingSoon": "Coming Soon",
+    "maintenance": "Under Maintenance"
+  },
+  "sections": {
+    "hero": {
+      "greeting": "Hello, I'm",
+      "subtitle": "Senior Communication Designer",
+      "description": "I create meaningful digital experiences that drive business growth"
+    },
+    "about": {
+      "title": "About Me",
+      "subtitle": "Get to Know Me",
+      "experienceLabel": "Years Experience",
+      "projectsLabel": "Projects Completed",
+      "clientsLabel": "Happy Clients",
+      "awardsLabel": "Awards Won"
+    },
+    "services": {
+      "title": "What I Do Best",
+      "subtitle": "Services",
+      "description": "From brand identity to digital experiences, I craft solutions that merge aesthetic excellence with strategic thinking."
+    },
+    "portfolio": {
+      "title": "Featured Projects",
+      "subtitle": "Portfolio", 
+      "description": "Explore my most impactful work that drove real business results and created meaningful user experiences.",
+      "categories": {
+        "all": "All Projects",
+        "branding": "Brand Design",
+        "uiux": "UI/UX Design",
+        "packaging": "Packaging",
+        "mobile": "Mobile Apps",
+        "web": "Web Design"
+      }
+    },
+    "contact": {
+      "title": "Let's Work Together",
+      "subtitle": "Get in Touch",
+      "description": "Have a project in mind? I'd love to hear about it.",
+      "info": {
+        "email": "Email",
+        "phone": "Phone",
+        "location": "Location",
+        "social": "Connect"
+      }
+    },
+    "cta": {
+      "title": "Ready to Create Something",
+      "titleAccent": "Amazing Together?",
+      "description": "Let's discuss your project and bring your vision to life with thoughtful design and strategic thinking."
+    }
+  },
+  "meta": {
+    "defaultTitle": "Huda Khan - Senior Communication Designer",
+    "titleTemplate": "%s | Huda Khan Portfolio",
+    "description": "Senior Communication Designer with 4+ years of experience creating impactful digital experiences. Specializing in brand design, UI/UX, and packaging design.",
+    "keywords": ["Brand Designer", "UI/UX Designer", "Portfolio", "Design", "Pakistan", "Karachi", "Communication Design"],
+    "ogImage": "/og-image.jpg",
+    "twitterHandle": "@hudakhan"
+  },
+  "footer": {
+    "tagline": "Crafting digital experiences with purpose",
+    "copyright": "© {year} Huda Khan. All rights reserved.",
+    "quickLinks": "Quick Links",
+    "legal": "Legal",
+    "builtWith": "Built with ❤️ using Next.js"
+  },
+  "errors": {
+    "404": {
+      "title": "Page Not Found",
+      "description": "The page you're looking for doesn't exist.",
+      "action": "Back to Home"
+    },
+    "500": {
+      "title": "Server Error", 
+      "description": "Something went wrong on our end.",
+      "action": "Try Again"
+    },
+    "offline": {
+      "title": "You're Offline",
+      "description": "Please check your internet connection.",
+      "action": "Retry"
+    }
+  },
+  "accessibility": {
+    "skipToContent": "Skip to main content",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu",
+    "toggleTheme": "Toggle theme",
+    "externalLink": "Opens in new tab",
+    "downloadFile": "Download file"
+  }
+}

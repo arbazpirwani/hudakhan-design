@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/organisms/Header";
 import Footer from "@/components/organisms/Footer";
+import { ThemeProvider } from "@/src/presentation/contexts/ThemeContext";
 import portfolioConfig from "@/content/portfolio-config.json";
 
 export const metadata: Metadata = {
@@ -63,15 +64,17 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
       </head>
       <body className="antialiased">
-        <Header navigation={portfolioConfig.navigation} />
-        <main className="relative">
-          {children}
-        </main>
-        <Footer 
-          personal={portfolioConfig.personal}
-          social={portfolioConfig.social}
-          navigation={portfolioConfig.navigation}
-        />
+        <ThemeProvider>
+          <Header navigation={portfolioConfig.navigation} />
+          <main className="relative">
+            {children}
+          </main>
+          <Footer 
+            personal={portfolioConfig.personal}
+            social={portfolioConfig.social}
+            navigation={portfolioConfig.navigation}
+          />
+        </ThemeProvider>
       </body>
     </html>
   );

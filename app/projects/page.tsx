@@ -84,7 +84,7 @@ export default function ProjectsPage() {
       </section>
 
       {/* Featured Projects */}
-      <section className="section-padding bg-gray-950">
+      <section className="section-padding bg-gray-900/50">
         <div className="container-custom">
           <div className="flex items-center justify-between mb-12">
             <div>

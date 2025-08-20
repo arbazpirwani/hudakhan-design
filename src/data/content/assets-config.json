@@ -1,0 +1,89 @@
+{
+  "images": {
+    "profile": {
+      "main": "/huda-khan-profile.jpg",
+      "portrait": "/portrait-huda.svg",
+      "alt": "Huda Khan - Senior Communication Designer"
+    },
+    "logo": {
+      "main": "/logo.svg",
+      "white": "/logo-white.svg",
+      "dark": "/logo-dark.svg",
+      "favicon": "/favicon.ico",
+      "alt": "Huda Khan Logo"
+    },
+    "og": {
+      "default": "/og-image.jpg",
+      "home": "/og-home.jpg",
+      "about": "/og-about.jpg",
+      "projects": "/og-projects.jpg",
+      "contact": "/og-contact.jpg"
+    },
+    "placeholders": {
+      "project": "/placeholder-project.jpg",
+      "avatar": "/placeholder-avatar.jpg",
+      "thumbnail": "/placeholder-thumb.jpg"
+    },
+    "icons": {
+      "apple": "/apple-touch-icon.png",
+      "android": "/android-chrome-192x192.png",
+      "mstile": "/mstile-150x150.png"
+    }
+  },
+  "documents": {
+    "resume": {
+      "path": "/resume/huda-khan-resume.pdf",
+      "filename": "Huda-Khan-Resume.pdf",
+      "size": "2.1 MB",
+      "lastUpdated": "2024-01-15"
+    },
+    "portfolio": {
+      "path": "/portfolio/huda-khan-portfolio.pdf",
+      "filename": "Huda-Khan-Portfolio.pdf",
+      "size": "15.8 MB",
+      "lastUpdated": "2024-01-10"
+    }
+  },
+  "external": {
+    "cdn": {
+      "enabled": false,
+      "baseUrl": "https://cdn.example.com",
+      "version": "v1.0.0"
+    },
+    "analytics": {
+      "google": "GA-XXXXXXXXX",
+      "facebook": "FB-XXXXXXXXX",
+      "hotjar": "HJ-XXXXXXXXX"
+    },
+    "fonts": {
+      "google": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      ],
+      "adobe": [],
+      "custom": []
+    }
+  },
+  "optimization": {
+    "images": {
+      "quality": 85,
+      "formats": ["webp", "jpg", "png"],
+      "sizes": [640, 768, 1024, 1280, 1920],
+      "lazy": true
+    },
+    "compression": {
+      "enabled": true,
+      "level": 6
+    }
+  },
+  "fallbacks": {
+    "images": {
+      "project": "/images/fallback-project.jpg",
+      "profile": "/images/fallback-profile.jpg",
+      "thumbnail": "/images/fallback-thumb.jpg"
+    },
+    "documents": {
+      "resume": "Contact me for my latest resume",
+      "portfolio": "Portfolio available upon request"
+    }
+  }
+}

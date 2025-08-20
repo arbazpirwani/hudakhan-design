@@ -1,29 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap');
+/* Fonts are now loaded via Next.js font optimization */
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  /* Primary Colors */
-  --background-dark: #1C1C1C;
-  --background-darker: #0A0A0A;
-  --text-primary: #FFFFFF;
-  --text-secondary: #A0A0A0;
+  /* Dynamic colors will be set by ThemeProvider */
+  /* Fallback colors for SSR - will be overridden */
+  --color-background: #1C1C1C;
+  --color-textPrimary: #FFFFFF;
+  --color-textSecondary: #A0A0A0;
+  --color-accent: #8B5CF6;
+  --gradient-primary: linear-gradient(135deg, #8B5CF6 0%, #EC4899 100%);
   
-  /* Accent Colors (Huda's Brand) */
-  --accent-purple: #8B5CF6;
-  --accent-pink: #EC4899;
-  --accent-gradient: linear-gradient(135deg, #8B5CF6 0%, #EC4899 100%);
-  
-  /* Surface Colors */
-  --surface-card: #2A2A2A;
-  --surface-hover: #3A3A3A;
-  --border-subtle: #333333;
-  
-  /* Typography Scale */
-  --font-primary: 'Inter', sans-serif;
-  --font-display: 'Playfair Display', serif;
+  /* Typography Scale - Will be set by ThemeProvider */
+  --font-primary: "Inter", sans-serif;
+  --font-display: "Playfair Display", serif;
   
   --text-xs: clamp(0.75rem, 0.7vw, 0.875rem);
   --text-sm: clamp(0.875rem, 0.8vw, 1rem);
@@ -54,8 +46,8 @@ html {
 }
 
 body {
-  color: var(--text-primary);
-  background: var(--background-dark);
+  color: var(--color-textPrimary);
+  background: var(--color-background);
   font-family: var(--font-primary);
   line-height: 1.6;
   overflow-x: hidden;
@@ -88,8 +80,8 @@ body {
 @layer components {
   .btn-primary {
     @apply inline-flex items-center justify-center px-6 py-3 rounded-full;
-    background: var(--accent-gradient);
-    color: var(--text-primary);
+    background: var(--gradient-primary);
+    color: var(--color-textPrimary);
     font-weight: 600;
     transition: all var(--timing-normal) var(--ease-out);
     border: 2px solid transparent;
@@ -103,34 +95,34 @@ body {
   .btn-secondary {
     @apply inline-flex items-center justify-center px-6 py-3 rounded-full;
     background: transparent;
-    color: var(--text-primary);
-    border: 2px solid var(--border-subtle);
+    color: var(--color-textPrimary);
+    border: 2px solid var(--color-border);
     font-weight: 600;
     transition: all var(--timing-normal) var(--ease-out);
   }
   
   .btn-secondary:hover {
-    border-color: var(--accent-purple);
+    border-color: var(--color-accent);
     background: rgba(139, 92, 246, 0.1);
   }
   
   .text-gradient {
-    background: var(--accent-gradient);
+    background: var(--gradient-primary);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
   
   .card {
-    background: var(--surface-card);
-    border: 1px solid var(--border-subtle);
+    background: var(--color-card);
+    border: 1px solid var(--color-border);
     border-radius: 1rem;
     padding: 2rem;
     transition: all var(--timing-normal) var(--ease-out);
   }
   
   .card:hover {
-    background: var(--surface-hover);
+    background: var(--color-cardHover);
     transform: translateY(-4px);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
   }
@@ -175,16 +167,16 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--background-darker);
+  background: var(--color-backgroundSecondary);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--accent-purple);
+  background: var(--color-accent);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--accent-pink);
+  background: var(--color-accentSecondary);
 }
 
 /* Loading animations */

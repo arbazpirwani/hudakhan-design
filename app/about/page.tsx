@@ -120,7 +120,7 @@ export default function AboutPage() {
 
             {/* Image */}
             <div className="relative">
-              <div className="aspect-square rounded-3xl overflow-hidden bg-gradient-to-br from-purple-500/20 to-pink-500/20 p-4">
+              <div className="aspect-square rounded-3xl overflow-hidden bg-gradient-to-br from-dynamic-accent/20 to-dynamic-accent-secondary/20 p-4">
                 <div className="w-full h-full rounded-2xl overflow-hidden">
                   <Image
                     src={getImagePath("/huda-khan-profile.jpg")}
@@ -134,7 +134,7 @@ export default function AboutPage() {
               </div>
               
               {/* Decorative elements */}
-              <div className="absolute -top-4 -right-4 w-20 h-20 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full opacity-20 animate-pulse" />
+              <div className="absolute -top-4 -right-4 w-20 h-20 bg-gradient-to-br from-dynamic-accent to-dynamic-accent-secondary rounded-full opacity-20 animate-pulse" />
               <div className="absolute -bottom-6 -left-6 w-32 h-32 border-2 border-purple-500/30 rounded-full" />
             </div>
           </div>
@@ -142,7 +142,7 @@ export default function AboutPage() {
       </section>
 
       {/* Stats Section */}
-      <section className="section-padding bg-gray-950">
+      <section className="section-padding bg-dynamic-background-secondary">
         <div className="container-custom">
           <Text
             variant="h2"
@@ -219,7 +219,7 @@ export default function AboutPage() {
       </section>
 
       {/* Skills Section */}
-      <section className="section-padding bg-gray-950">
+      <section className="section-padding bg-dynamic-background-secondary">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
             {/* Skills */}
@@ -242,9 +242,9 @@ export default function AboutPage() {
                         {skill.level}%
                       </Text>
                     </div>
-                    <div className="w-full bg-gray-800 rounded-full h-2">
+                    <div className="w-full bg-dynamic-background-tertiary rounded-full h-2">
                       <div
-                        className="bg-gradient-to-r from-purple-500 to-pink-500 h-2 rounded-full transition-all duration-1000"
+                        className="bg-gradient-to-r from-dynamic-accent to-dynamic-accent-secondary h-2 rounded-full transition-all duration-1000"
                         style={{ width: `${skill.level}%` }}
                       />
                     </div>
@@ -265,7 +265,7 @@ export default function AboutPage() {
               <div className="space-y-6">
                 {achievements.map((achievement, index) => (
                   <div key={index} className="flex gap-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <div className="w-12 h-12 bg-gradient-to-br from-dynamic-accent to-dynamic-accent-secondary rounded-lg flex items-center justify-center flex-shrink-0">
                       <Icon name={achievement.icon} size={24} color="white" />
                     </div>
                     <div>
@@ -285,7 +285,7 @@ export default function AboutPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="section-padding bg-gradient-to-br from-purple-900/20 to-pink-900/20">
+      <section className="section-padding bg-gradient-to-br from-dynamic-accent/20 to-dynamic-accent-secondary/20">
         <div className="container-custom text-center">
           <Text
             variant="h2"

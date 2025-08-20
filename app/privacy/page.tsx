@@ -41,7 +41,7 @@ export default function PrivacyPage() {
                 <Text variant="body" color="secondary" className="mb-4">
                   This portfolio website collects minimal information to provide the best user experience:
                 </Text>
-                <ul className="list-disc list-inside space-y-2 text-gray-300">
+                <ul className="list-disc list-inside space-y-2 text-dynamic-text-secondary">
                   <li>Contact form submissions (name, email, message)</li>
                   <li>Basic analytics data (page views, session duration)</li>
                   <li>Technical information (browser type, device information)</li>
@@ -55,7 +55,7 @@ export default function PrivacyPage() {
                 <Text variant="body" color="secondary" className="mb-4">
                   Information collected is used solely for:
                 </Text>
-                <ul className="list-disc list-inside space-y-2 text-gray-300">
+                <ul className="list-disc list-inside space-y-2 text-dynamic-text-secondary">
                   <li>Responding to your inquiries and project requests</li>
                   <li>Improving website performance and user experience</li>
                   <li>Understanding visitor behavior through analytics</li>
@@ -84,7 +84,7 @@ export default function PrivacyPage() {
               </div>
             </div>
 
-            <div className="mt-12 pt-8 border-t border-gray-800">
+            <div className="mt-12 pt-8 border-t border-dynamic-border">
               <Button
                 variant="secondary"
                 href="/"

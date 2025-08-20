@@ -20,7 +20,7 @@ export default function Home() {
       <ParallaxGallery projects={projectsData.projects} />
 
       {/* Services Section */}
-      <section className="section-padding bg-gray-900/50">
+      <section className="section-padding bg-dynamic-background-secondary/50">
         <div className="container-custom">
           <div className="text-center mb-16">
             <Text

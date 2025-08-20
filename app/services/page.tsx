@@ -118,7 +118,7 @@ export default function ServicesPage() {
       </section>
 
       {/* Services Grid */}
-      <section className="section-padding bg-gray-950">
+      <section className="section-padding bg-dynamic-background-secondary">
         <div className="container-custom">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {services.map((service, index) => (
@@ -157,7 +157,7 @@ export default function ServicesPage() {
             {processSteps.map((step, index) => (
               <div key={index} className="relative">
                 <div className="card text-center">
-                  <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <div className="w-16 h-16 bg-gradient-to-br from-dynamic-accent to-dynamic-accent-secondary rounded-full flex items-center justify-center mx-auto mb-6">
                     <Text variant="h5" weight="bold" color="primary">
                       {step.number}
                     </Text>
@@ -170,8 +170,8 @@ export default function ServicesPage() {
                   </Text>
                   <div className="space-y-2">
                     {step.deliverables.map((deliverable, i) => (
-                      <div key={i} className="flex items-center gap-2 text-sm text-gray-400">
-                        <div className="w-1.5 h-1.5 rounded-full bg-purple-500 flex-shrink-0" />
+                      <div key={i} className="flex items-center gap-2 text-sm text-dynamic-text-secondary">
+                        <div className="w-1.5 h-1.5 rounded-full bg-dynamic-accent flex-shrink-0" />
                         <span>{deliverable}</span>
                       </div>
                     ))}
@@ -180,7 +180,7 @@ export default function ServicesPage() {
 
                 {/* Connector line */}
                 {index < processSteps.length - 1 && (
-                  <div className="hidden lg:block absolute top-8 left-full w-8 h-px bg-purple-500/30 transform translate-x-4" />
+                  <div className="hidden lg:block absolute top-8 left-full w-8 h-px bg-dynamic-accent/30 transform translate-x-4" />
                 )}
               </div>
             ))}
@@ -189,7 +189,7 @@ export default function ServicesPage() {
       </section>
 
       {/* Pricing Section */}
-      <section className="section-padding bg-gray-950">
+      <section className="section-padding bg-dynamic-background-secondary">
         <div className="container-custom">
           <div className="text-center mb-16">
             <Text
@@ -225,7 +225,7 @@ export default function ServicesPage() {
                 <div className="space-y-3 mb-8">
                   {package_.features.map((feature, i) => (
                     <div key={i} className="flex items-center gap-3">
-                      <Icon name="heart" size={16} color="rgb(147, 51, 234)" />
+                      <Icon name="heart" size={16} color="rgb(139, 92, 246)" />
                       <Text variant="body" color="secondary">
                         {feature}
                       </Text>
@@ -236,7 +236,7 @@ export default function ServicesPage() {
                 <Button
                   variant="secondary"
                   href="/contact"
-                  className="w-full group-hover:bg-purple-500 group-hover:text-white transition-colors"
+                  className="w-full group-hover:bg-dynamic-accent group-hover:text-dynamic-text-primary transition-colors"
                 >
                   Get Started
                 </Button>
@@ -284,7 +284,7 @@ export default function ServicesPage() {
             {tools.map((tool, index) => (
               <div
                 key={index}
-                className="px-6 py-3 bg-gray-800 text-gray-300 rounded-full hover:bg-purple-500 hover:text-white transition-colors duration-300"
+                className="px-6 py-3 bg-dynamic-background-tertiary text-dynamic-text-secondary rounded-full hover:bg-dynamic-accent hover:text-dynamic-text-primary transition-colors duration-300"
               >
                 <Text variant="body" weight="medium">
                   {tool}
@@ -296,7 +296,7 @@ export default function ServicesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="section-padding bg-gradient-to-br from-purple-900/20 to-pink-900/20">
+      <section className="section-padding bg-gradient-to-br from-dynamic-accent/20 to-dynamic-accent-secondary/20">
         <div className="container-custom text-center">
           <Text
             variant="h2"

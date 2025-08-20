@@ -1,0 +1,210 @@
+{
+  "homepage": {
+    "services": {
+      "overline": "Services",
+      "title": "What I Do Best",
+      "description": "From brand identity to digital experiences, I craft solutions that merge aesthetic excellence with strategic thinking."
+    },
+    "portfolio": {
+      "overline": "Portfolio",
+      "title": "Featured Projects",
+      "description": "Explore my most impactful work that drove real business results and created meaningful user experiences.",
+      "viewAllText": "View All Projects"
+    },
+    "cta": {
+      "title": "Ready to Create Something",
+      "titleAccent": "Amazing Together?",
+      "description": "Let's discuss your project and bring your vision to life with thoughtful design and strategic thinking.",
+      "primaryButton": "Start a Project",
+      "secondaryButton": "Download Resume"
+    }
+  },
+  "about": {
+    "pageTitle": "About Me",
+    "overline": "Get to Know Me",
+    "title": "Crafting Digital Experiences",
+    "subtitle": "with Purpose & Passion",
+    "bio": [
+      "I'm Huda Khan, a Senior Communication Designer based in Karachi, Pakistan. With over 4 years of experience, I specialize in creating comprehensive brand identities and digital experiences that drive business growth.",
+      "Currently leading design initiatives at Bazaar Technologies, Pakistan's largest B2B e-commerce platform, I've had the privilege of working on products that impact millions of users and generate substantial revenue.",
+      "My approach combines strategic thinking with aesthetic excellence, ensuring every design decision serves both user needs and business objectives."
+    ],
+    "stats": {
+      "experience": {
+        "value": 4,
+        "label": "Years Experience"
+      },
+      "projects": {
+        "value": 50,
+        "label": "Projects Completed"
+      },
+      "downloads": {
+        "value": 3000000,
+        "label": "App Downloads"
+      },
+      "revenue": {
+        "value": 300,
+        "label": "Revenue Generated (PKR Million)"
+      }
+    },
+    "expertise": {
+      "title": "Areas of Expertise",
+      "items": [
+        "Brand Identity Design",
+        "UI/UX Design",
+        "Product Design",
+        "Packaging Design",
+        "Motion Graphics",
+        "Design Systems",
+        "User Research",
+        "Design Leadership"
+      ]
+    },
+    "experience": {
+      "title": "Professional Experience",
+      "items": [
+        {
+          "company": "Bazaar Technologies",
+          "position": "Senior Communication Designer",
+          "period": "2021 - Present",
+          "description": "Leading design initiatives across all company verticals, managing a team of 4 designers, and driving design strategy for products serving 17,000+ merchants."
+        },
+        {
+          "company": "Freelance",
+          "position": "Brand & UI/UX Designer",
+          "period": "2020 - 2021",
+          "description": "Worked with various clients on brand identity, packaging design, and digital product design projects."
+        }
+      ]
+    },
+    "education": {
+      "title": "Education",
+      "items": [
+        {
+          "institution": "University of Karachi",
+          "degree": "Bachelor of Design",
+          "period": "2016 - 2020",
+          "description": "Specialized in Visual Communication Design with focus on brand identity and digital design."
+        }
+      ]
+    }
+  },
+  "services": {
+    "pageTitle": "Services",
+    "overline": "What I Offer",
+    "title": "Design Services",
+    "subtitle": "Tailored to Your Needs",
+    "description": "I offer comprehensive design services that help businesses establish strong brand presence and create meaningful connections with their audience."
+  },
+  "contact": {
+    "pageTitle": "Contact",
+    "overline": "Get in Touch",
+    "title": "Let's Work Together",
+    "description": "Have a project in mind? I'd love to hear about it. Send me a message and let's create something amazing.",
+    "form": {
+      "namePlaceholder": "Your Name",
+      "emailPlaceholder": "your@email.com",
+      "subjectPlaceholder": "Project Inquiry",
+      "messagePlaceholder": "Tell me about your project...",
+      "submitButton": "Send Message",
+      "successMessage": "Thank you for your message! I'll get back to you soon.",
+      "errorMessage": "Something went wrong. Please try again."
+    },
+    "info": {
+      "title": "Contact Information",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "locationLabel": "Location",
+      "socialLabel": "Connect"
+    }
+  },
+  "projects": {
+    "pageTitle": "Projects",
+    "overline": "Portfolio",
+    "title": "All Projects",
+    "description": "Browse through my complete portfolio of design work across various industries and mediums.",
+    "filterAll": "All Projects",
+    "categories": [
+      "Mobile App Design",
+      "Packaging Design",
+      "Product Design",
+      "Brand Design",
+      "Social Media Design"
+    ]
+  },
+  "footer": {
+    "tagline": "Crafting digital experiences with purpose",
+    "copyright": "© 2024 Huda Khan. All rights reserved.",
+    "quickLinks": {
+      "title": "Quick Links",
+      "links": [
+        { "label": "About", "href": "/about" },
+        { "label": "Projects", "href": "/projects" },
+        { "label": "Services", "href": "/services" },
+        { "label": "Contact", "href": "/contact" }
+      ]
+    },
+    "legal": {
+      "title": "Legal",
+      "links": [
+        { "label": "Privacy Policy", "href": "/privacy" },
+        { "label": "Terms of Service", "href": "/terms" }
+      ]
+    }
+  },
+  "privacy": {
+    "pageTitle": "Privacy Policy",
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: January 2024",
+    "content": [
+      {
+        "heading": "Information We Collect",
+        "text": "We collect information you provide directly to us, such as when you contact us through the website."
+      },
+      {
+        "heading": "How We Use Your Information",
+        "text": "We use the information we collect to respond to your inquiries and provide our services."
+      },
+      {
+        "heading": "Information Sharing",
+        "text": "We do not sell, trade, or otherwise transfer your personal information to third parties."
+      },
+      {
+        "heading": "Contact Us",
+        "text": "If you have any questions about this Privacy Policy, please contact us at hudapervez@hotmail.com"
+      }
+    ]
+  },
+  "terms": {
+    "pageTitle": "Terms of Service",
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: January 2024",
+    "content": [
+      {
+        "heading": "Acceptance of Terms",
+        "text": "By accessing and using this website, you accept and agree to be bound by these Terms of Service."
+      },
+      {
+        "heading": "Intellectual Property",
+        "text": "All content on this website, including designs, text, graphics, and images, is the property of Huda Khan."
+      },
+      {
+        "heading": "Use License",
+        "text": "Permission is granted to temporarily view materials on this website for personal, non-commercial use only."
+      },
+      {
+        "heading": "Contact Information",
+        "text": "For any questions regarding these Terms of Service, please contact us at hudapervez@hotmail.com"
+      }
+    ]
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "tryAgain": "Try Again",
+    "backToHome": "Back to Home",
+    "viewProject": "View Project",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started"
+  }
+}

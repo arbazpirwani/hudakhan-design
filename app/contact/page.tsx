@@ -48,13 +48,13 @@ export default function ContactPage() {
       </section>
 
       {/* Contact Methods */}
-      <section className="section-padding bg-gray-950">
+      <section className="section-padding bg-dynamic-background-secondary">
         <div className="container-custom">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
             {/* Email */}
             <div className="card text-center group hover:scale-105 transition-transform duration-300">
               <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
-                <Icon name="mail" size={32} color="white" />
+                <Icon name="mail" size={32} color="rgb(255, 255, 255)" />
               </div>
               <Text variant="h5" weight="semibold" className="mb-3">
                 Email Me
@@ -75,7 +75,7 @@ export default function ContactPage() {
             {/* WhatsApp */}
             <div className="card text-center group hover:scale-105 transition-transform duration-300">
               <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-emerald-500 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
-                <Icon name="phone" size={32} color="white" />
+                <Icon name="phone" size={32} color="rgb(255, 255, 255)" />
               </div>
               <Text variant="h5" weight="semibold" className="mb-3">
                 WhatsApp
@@ -96,7 +96,7 @@ export default function ContactPage() {
             {/* LinkedIn */}
             <div className="card text-center group hover:scale-105 transition-transform duration-300">
               <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
-                <Icon name="linkedin" size={32} color="white" />
+                <Icon name="linkedin" size={32} color="rgb(255, 255, 255)" />
               </div>
               <Text variant="h5" weight="semibold" className="mb-3">
                 LinkedIn
@@ -238,7 +238,7 @@ export default function ContactPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="section-padding bg-gradient-to-br from-purple-900/20 to-pink-900/20">
+      <section className="section-padding bg-gradient-to-br from-purple-900/20 to-pink-500/20">
         <div className="container-custom text-center">
           <Text
             variant="h2"

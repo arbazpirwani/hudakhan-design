@@ -6,7 +6,6 @@ import Text from '@/components/atoms/Text';
 import Button from '@/components/atoms/Button';
 import Icon from '@/components/atoms/Icon';
 import projectsData from '@/content/projects.json';
-import { Project } from '@/types';
 import { getImagePath } from '@/lib/utils';
 
 interface ProjectPageProps {
@@ -78,7 +77,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
           <div className="max-w-4xl">
             {/* Breadcrumb */}
             <nav className="mb-8">
-              <Link href="/projects" className="text-purple-400 hover:text-purple-300 transition-colors">
+              <Link href="/projects" className="text-dynamic-accent hover:text-dynamic-text-primary transition-colors">
                 ← Back to Projects
               </Link>
             </nav>
@@ -89,10 +88,10 @@ export default function ProjectPage({ params }: ProjectPageProps) {
                 <span className="px-3 py-1 bg-purple-500/20 text-purple-300 rounded-full">
                   {project.category}
                 </span>
-                <span className="px-3 py-1 bg-gray-800 text-gray-300 rounded-full">
+                <span className="px-3 py-1 bg-gray-700 text-gray-300 rounded-full">
                   {project.client}
                 </span>
-                <span className="px-3 py-1 bg-gray-800 text-gray-300 rounded-full">
+                <span className="px-3 py-1 bg-gray-700 text-gray-300 rounded-full">
                   {project.year}
                 </span>
               </div>
@@ -226,7 +225,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
                     {project.technologies.map((tech, index) => (
                       <span
                         key={index}
-                        className="px-3 py-1 bg-gray-800 text-gray-300 rounded-full text-sm"
+                        className="px-3 py-1 bg-gray-700 text-gray-300 rounded-full text-sm"
                       >
                         {tech}
                       </span>
@@ -280,7 +279,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
       </section>
 
       {/* Project Navigation */}
-      <section className="section-padding bg-gray-950">
+      <section className="section-padding bg-dynamic-background-secondary">
         <div className="container-custom">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Previous Project */}
